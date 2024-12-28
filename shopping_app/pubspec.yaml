@@ -1,0 +1,50 @@
+name: shopping_app
+description: "A simple shopping app interface built with Flutter."
+
+# Prevents accidental publishing to pub.dev for private packages.
+publish_to: 'none' # Remove this line if you want to publish the app
+
+# Version and build number of the app.
+version: 1.0.0+1
+
+# Flutter SDK version
+environment:
+  sdk: ^3.6.0
+
+# Dependencies for the app
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Cupertino Icons for iOS style icons
+  cupertino_icons: ^1.0.8
+
+# Development dependencies for testing and linting.
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Lints for better coding practices
+  flutter_lints: ^5.0.0
+
+# Flutter settings
+flutter:
+  uses-material-design: true
+
+  # Declare your assets to be included in the app.
+  assets:
+    - assets/1.png
+    - assets/2.png
+    - assets/3.png
+    - assets/4.png
+    - assets/5.png
+    - assets/i1.jpg
+    - assets/hot-deal.png
+
+  # Optional section for custom fonts (uncomment if you want to add fonts later).
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
