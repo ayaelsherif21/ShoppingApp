@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shopping_app/product.dart';
+import 'package:shopping_app/login.dart';
+// import 'package:shopping_app/product.dart';
 
 class SignUp extends StatefulWidget {
   const SignUp({super.key});
@@ -176,7 +177,7 @@ class _SignUpState extends State<SignUp> {
               onPressed: () {
                 Navigator.pushReplacement(
                   context,
-                  MaterialPageRoute(builder: (context) => ProductPage()),
+                  MaterialPageRoute(builder: (context) => LoginScreen()),
                 );
               },
               child: const Text('Go to Shopping'),
